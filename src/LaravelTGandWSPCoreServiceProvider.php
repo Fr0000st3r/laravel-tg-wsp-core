@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeUrrutia\LaravelTGandWSPCore;
+namespace Frost\LaravelTGandWSPCore;
 
 use Illuminate\Support\ServiceProvider;
 

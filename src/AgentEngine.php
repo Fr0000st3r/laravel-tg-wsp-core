@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeUrrutia\LaravelTGandWSPCore;
+namespace Frost\LaravelTGandWSPCore;
 
-use CodeUrrutia\LaravelTGandWSPCore\Contracts\IncomingMessage;
+use Frost\LaravelTGandWSPCore\Contracts\IncomingMessage;
 
 class AgentEngine
 {
@@ -14,12 +14,11 @@ class AgentEngine
         // Por ahora, lógica de "Echo" para pruebas
         $text = trim($message->text);
         $name = $message->firstName ?? 'amigo';
-
+        
         if (strtolower($text) === '/start') {
             return "¡Hola {$name}!";
         }
 
         return "Mensaje recibido, {$name}: '{$text}' (vía {$message->channel}).";
-
     }
 }
