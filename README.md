@@ -1,6 +1,7 @@
 # ⚡ LARAVEL-TG-WSP-CORE ⚡
 
-> **STATUS:** `OPERATIONAL` | **OWNER:** `FROST` | **VERSION:** `1.0.0`
+> **STATUS:** `OPERATIONAL` | **OWNER:** `FR0000ST3R` | **VERSION:** `1.0.0`
+
 > *Standardized multi-channel messaging engine for the neon age.*
 
 ---

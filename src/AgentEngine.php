@@ -1,8 +1,8 @@
 <?php
 
-namespace Frost\LaravelTGandWSPCore;
+namespace Fr0000st3r\LaravelTGandWSPCore;
 
-use Frost\LaravelTGandWSPCore\Contracts\IncomingMessage;
+use Fr0000st3r\LaravelTGandWSPCore\Contracts\IncomingMessage;
 
 class AgentEngine
 {

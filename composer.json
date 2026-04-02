@@ -1,22 +1,22 @@
 {
-    "name": "frost/laravel-tg-wsp-core",
+    "name": "fr0000st3r/laravel-tg-wsp-core",
     "description": "Un chasis genérico para bots de Telegram y WhatsApp en Laravel.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "frost"
+            "name": "fr0000st3r"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Frost\\LaravelTGandWSPCore\\": "src/"
+            "Fr0000st3r\\LaravelTGandWSPCore\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Frost\\LaravelTGandWSPCore\\LaravelTGandWSPCoreServiceProvider"
+                "Fr0000st3r\\LaravelTGandWSPCore\\LaravelTGandWSPCoreServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Frost\LaravelTGandWSPCore\Contracts;
+namespace Fr0000st3r\LaravelTGandWSPCore\Contracts;
 
 class IncomingMessage
 {
