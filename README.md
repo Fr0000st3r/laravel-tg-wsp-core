@@ -71,7 +71,7 @@ $bot->onMessage(function (Nutgram $bot) {
 ---
 
 ## 🕶️ CRÉDITOS
-Desarrollado con precisión quirúrgica por **Frost**. 🦾🔥
+Made with ❤️ by **Frost** for community.
 
 ---
 *Powered by Nutgram and Pure Laravel Logic.*
