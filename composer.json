@@ -1,0 +1,27 @@
+{
+    "name": "codeurrutia/laravel-tg-wsp-core",
+    "description": "Un chasis genérico para bots de Telegram y WhatsApp en Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CodeUrrutia"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CodeUrrutia\\LaravelTGandWSPCore\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodeUrrutia\\LaravelTGandWSPCore\\LaravelTGandWSPCoreServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    }
+}
